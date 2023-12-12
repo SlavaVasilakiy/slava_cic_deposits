@@ -1,19 +1,22 @@
 {
-  "name": "slava_cic_deposits",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SlavaVasilakiy/slava_cic_deposits.git"
-  },
-  "author": "slava_vs",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SlavaVasilakiy/slava_cic_deposits/issues"
-  },
-  "homepage": "https://github.com/SlavaVasilakiy/slava_cic_deposits#readme"
+	"name": "slava_cic_deposits",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node deposits.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SlavaVasilakiy/slava_cic_deposits.git"
+	},
+	"author": "slava_vs",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SlavaVasilakiy/slava_cic_deposits/issues"
+	},
+	"homepage": "https://github.com/SlavaVasilakiy/slava_cic_deposits#readme",
+	"dependencies": {
+		"slava_cic_deposits": "^1.0.0"
+	}
 }
